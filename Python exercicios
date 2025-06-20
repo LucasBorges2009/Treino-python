@@ -1,0 +1,443 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP117o2T22Hw9Ed+8SgZLae",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/LucasBorges2009/Treino-python/blob/main/Python%20exercicios\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Desafios:"
+      ],
+      "metadata": {
+        "id": "Dk-G0UAHYT5W"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = input('Qual é o seu nome? ')\n",
+        "idade = input('Qual a sua idade? ')\n",
+        "\n",
+        "print(f'Seu nome é {nome}, e sua idade é {idade} anos')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "13nsiyKW49BS",
+        "outputId": "d98c6d30-f827-4253-fd7c-87b83bfd29d7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Qual é o seu nome? Lucas\n",
+            "Qual a sua idade? 16\n",
+            "Seu nome é Lucas, e sua idade é 16 anos\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = int(input(\"Escolha um número \"))\n",
+        "num2 = int(input(\"Escolha outro numero \"))\n",
+        "\n",
+        "resultadosoma = num1+num2\n",
+        "resultadosub = num1-num2\n",
+        "\n",
+        "print(resultadosoma)\n",
+        "print(resultadosub)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RHIPxSBN58Y3",
+        "outputId": "8c0a8a2e-911a-4c83-a4c8-dba77379a342"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Escolha um número 10\n",
+            "Escolha outro numero 5\n",
+            "15\n",
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "idade = int(input('Digite sua idade: '))\n",
+        "\n",
+        "if (idade) > 17: print('Você é maior de idade.')\n",
+        "else:\n",
+        " print('Você é menor de idade.')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mCwiyqqoBUcq",
+        "outputId": "a45e4e5e-6a8f-4c62-98c2-2e3f62cfe908"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite sua idade: 20\n",
+            "Você é maior de idade.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nota = float(input(\"Digite sua média: \"))\n",
+        "\n",
+        "if(nota) >= 7:\n",
+        "  print(\"Você está acima da média, parabéns.\")\n",
+        "\n",
+        "else:\n",
+        "  print(\"Você está abaixo da média, estude mais.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lkP8X4z1DjaH",
+        "outputId": "55cd53b1-fbd1-4e01-a5ff-0e5858d7feec"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite sua média: 8\n",
+            "Você está acima da média, parabéns.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Estudo:"
+      ],
+      "metadata": {
+        "id": "uQlogqldYaB0"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "idade = 115\n",
+        "\n",
+        "if idade < 13:\n",
+        " print(\"Criança\")\n",
+        "\n",
+        "elif idade < 18:\n",
+        " print(\"Adolescente\")\n",
+        "\n",
+        "elif idade < 65:\n",
+        " print(\"Adulto\")\n",
+        "\n",
+        "else:\n",
+        " print(\"Idoso\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "I9jtoGhjTst0",
+        "outputId": "b771ef98-af9c-40e5-94b1-264e88c19424"
+      },
+      "execution_count": 87,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Idoso\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "resultado = 3 < 5\n",
+        "print(resultado)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "F-lFQH__U0u4",
+        "outputId": "c6ddf4b9-ac76-4e2b-c771-986643af2b92"
+      },
+      "execution_count": 89,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "resultado = 10 < 5\n",
+        "print(resultado)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lxQG5KeZVB07",
+        "outputId": "8ceb7188-cb03-4007-e589-97cb90ec0627"
+      },
+      "execution_count": 90,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "idade = 21\n",
+        "tem_carteira_de_motorista = True\n",
+        "\n",
+        "if idade >= 18 and tem_carteira_de_motorista:\n",
+        "  print(\"Você pode dirigir.\")\n",
+        "\n",
+        "else:\n",
+        "  print(\"Você não pode dirigir.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MIK18p5CVE-F",
+        "outputId": "57a7060b-dc48-46b3-a127-c6d8f9f9767b"
+      },
+      "execution_count": 95,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Você pode dirigir.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "estudante = True\n",
+        "idoso = False\n",
+        "\n",
+        "if estudante or idoso:\n",
+        " print(\"Você ganhou desconto\")\n",
+        "else:\n",
+        "  print(\"Você não ganhou desconto\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0MgGnaTTW8D2",
+        "outputId": "7613e50e-9a3f-4830-96eb-93389221aa04"
+      },
+      "execution_count": 100,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Você ganhou desconto\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Desafios:"
+      ],
+      "metadata": {
+        "id": "ZmwL9ck3YK2T"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "preco_do_pao = 5\n",
+        "dinheiro = float(input(\"Quantos reais você tem? \"))\n",
+        "\n",
+        "if dinheiro >= 5:\n",
+        " print(\"Você tem dinheiro suficiente.\")\n",
+        "else:\n",
+        "  print(\"Você não tem dinheiro suficiente.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mQaToYMIXhLf",
+        "outputId": "edca4bc8-7eae-425e-afe3-02c28029cc22"
+      },
+      "execution_count": 104,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Quantos reais você tem? 3\n",
+            "Você não tem dinheiro suficiente.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "temperatura = 29\n",
+        "\n",
+        "if temperatura < 9:\n",
+        "  print(\"Temperatura fria.\")\n",
+        "\n",
+        "elif temperatura > 31:\n",
+        "  print(\"Temperatura quente.\")\n",
+        "\n",
+        "else:\n",
+        "  print(\"Temperatura normal.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1Y22m4pjYgGr",
+        "outputId": "70cd60f9-fd21-4e0d-fbfb-66a3073e29a1"
+      },
+      "execution_count": 111,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Temperatura normal.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "horario = 13\n",
+        "\n",
+        "if horario <= 12:\n",
+        "  print(\"Bom dia!\")\n",
+        "\n",
+        "elif horario <= 18:\n",
+        "  print(\"Boa tarde!\")\n",
+        "\n",
+        "else:\n",
+        "  print(\"Boa noite!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "m2_KzHn_Zhb2",
+        "outputId": "93dbacea-0dc2-4f56-8502-6bd4e73ebd3b"
+      },
+      "execution_count": 143,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Boa tarde!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "idade = 19\n",
+        "condicionamento_fisico = False\n",
+        "permissao_medica = True\n",
+        "\n",
+        "if idade >= 18 and (condicionamento_fisico or permissao_medica):\n",
+        " print(\"Você está validado!\")\n",
+        "\n",
+        "else:\n",
+        " print(\"Você não está validado\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Z7klW2tAasth",
+        "outputId": "2dd09499-90a4-4c19-b3cb-5833ba3bda46"
+      },
+      "execution_count": 159,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Você está validado!\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
